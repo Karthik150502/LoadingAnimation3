@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+
+
+    *{
+        margin: 0px;
+    }
+
+    .main{
+        width: 100%;
+        aspect-ratio: 1/1;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        background-image: url("Guitar.jpg");
+        background-size:cover;        
+        background-attachment: fixed;
+    }
+
+    .bars{
+        height: 150px;
+        width: 25px;
+        margin: 2px;
+        margin-top: 250px;
+        background: rgba(62, 59, 59, 0.3);
+        backdrop-filter: saturate(180%) blur(5px);
+        border-radius: 2px;
+
+    }
+
+    #bar1{
+        animation: bara 500ms ease-in-out 0.2s alternate infinite ;
+    }
+
+    @keyframes bara{
+
+        0% {
+            height:150px;
+        }
+
+        100% {
+            transform: scaleY(0.2);
+
+        }
+    }
+
+    #bar2{
+        animation: barb 500ms ease-in-out 0.4s alternate infinite ;
+    }
+
+    @keyframes barb{
+
+        0% {
+            height:150px;
+        }
+
+        100% {
+            transform: scaleY(0.2);
+        }
+    }
+
+    #bar3{
+        animation: barc 500ms ease-in-out 0.6s alternate infinite ;
+    }
+
+    @keyframes barc{
+
+        0% {
+            height:150px;
+        }
+
+        100% {
+            transform: scaleY(0.2);
+        }
+    }
+
+    #bar4{
+        animation: bard 500ms ease-in-out 0.8s alternate infinite ;
+    }
+
+    @keyframes bard{
+
+        0% {
+            height:150px;
+        }
+
+        100% {
+            transform: scaleY(0.2);
+        }
+    }
+
+    #bar5{
+        animation: bare 500ms ease-in-out 1s alternate infinite ;
+    }
+
+    @keyframes bare{
+
+        0% {
+            height:150px;
+        }
+
+        100% {
+            transform: scaleY(0.2);
+        }
+    }
+
+    #bar6{
+        animation: barf 500ms ease-in-out 1s alternate infinite ;
+    }
+
+    @keyframes barf{
+
+        0% {
+            height:150px;
+        }
+
+        100% {
+            transform: scaleY(0.2);
+        }
+    }
+
+    #bar7{
+        animation: barg 500ms ease-in-out 0.8s alternate infinite ;
+    }
+
+    @keyframes barg{
+
+        0% {
+            height:150px;
+        }
+
+        100% {
+            transform: scaleY(0.2);
+        }
+    }
+
+    #bar8{
+        animation: barh 500ms ease-in-out 0.6s alternate infinite ;
+    }
+
+    @keyframes barh{
+
+        0% {
+            height:150px;
+        }
+
+        100% {
+            transform: scaleY(0.2);
+        }
+    }
+
+    #bar9{
+        animation: bari 500ms ease-in-out 0.4s alternate infinite ;
+    }
+
+    @keyframes bari{
+
+        0% {
+            height:150px;
+        }
+
+        100% {
+            transform: scaleY(0.2);
+        }
+    }
+
+    #bar10{
+        animation: barj 500ms ease-in-out 0.2s alternate infinite ;
+    }
+
+    @keyframes barj{
+
+        0% {
+            height:150px;
+        }
+
+        100% {
+            transform: scaleY(0.2);
+        }
+    }
+
+</style>
+<body>
+
+
+    
+    <div class="main">
+        <div class="bars" id="bar1"></div>
+        <div class="bars" id="bar2"></div>
+        <div class="bars" id="bar3"></div>
+        <div class="bars" id="bar4"></div>
+        <div class="bars" id="bar5"></div>
+        <div class="bars" id="bar6"></div>
+        <div class="bars" id="bar7"></div>
+        <div class="bars" id="bar8"></div>
+        <div class="bars" id="bar9"></div>
+        <div class="bars" id="bar10"></div>
+    </div>
+
+
+
+</body>
+</html>
